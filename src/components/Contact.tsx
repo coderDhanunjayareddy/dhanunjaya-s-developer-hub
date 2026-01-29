@@ -119,7 +119,7 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href="https://github.com/dhanunjaya-varma"
+                href="https://github.com/coderDhanunjayareddy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all"
@@ -127,7 +127,7 @@ const Contact = () => {
                 <Github size={18} />
               </a>
               <a
-                href="https://linkedin.com/in/dhanunjaya"
+                href="https://www.linkedin.com/in/dhanunjaya-somireddy/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all"

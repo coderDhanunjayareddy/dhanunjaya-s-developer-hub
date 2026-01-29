@@ -35,7 +35,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex justify-center md:justify-end gap-4">
             <a
-              href="https://github.com/dhanunjaya-varma"
+              href="https://github.com/coderDhanunjayareddy"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-primary-foreground/30 flex items-center justify-center text-primary-foreground/70 hover:bg-primary-foreground hover:text-foreground transition-all"
@@ -43,7 +43,7 @@ const Footer = () => {
               <Github size={18} />
             </a>
             <a
-              href="https://linkedin.com/in/dhanunjaya"
+              href="https://www.linkedin.com/in/dhanunjaya-somireddy/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-primary-foreground/30 flex items-center justify-center text-primary-foreground/70 hover:bg-primary-foreground hover:text-foreground transition-all"

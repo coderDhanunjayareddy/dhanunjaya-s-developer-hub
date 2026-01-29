@@ -10,7 +10,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
     technologies: ["Spring Boot", "React.js", "MySQL", "AWS"],
     category: "Full Stack",
-    github: "https://github.com/dhanunjaya-varma",
+    github: "https://github.com/coderDhanunjayareddy",
     live: "",
     highlights: ["JWT Auth", "REST APIs", "AWS Deployed"],
   },
@@ -20,7 +20,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
     technologies: ["Python", "FastAPI", "PostgreSQL", "SHAP"],
     category: "AI/ML",
-    github: "https://github.com/dhanunjaya-varma",
+    github: "https://github.com/coderDhanunjayareddy",
     live: "",
     highlights: ["Isolation Forest", "SHAP Integration", "Audit Logging"],
   },
@@ -30,7 +30,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
     technologies: ["Spring Boot", "Angular", "MySQL", "JWT"],
     category: "Full Stack",
-    github: "https://github.com/dhanunjaya-varma",
+    github: "https://github.com/coderDhanunjayareddy",
     live: "",
     highlights: ["Role-Based Auth", "Real-time Updates", "Admin Panel"],
   },
@@ -40,7 +40,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
     technologies: ["Java", "Spring Boot", "Hibernate", "MySQL"],
     category: "Backend",
-    github: "https://github.com/dhanunjaya-varma",
+    github: "https://github.com/coderDhanunjayareddy",
     live: "",
     highlights: ["Transaction Safety", "Account Mgmt", "Security Focus"],
   },
@@ -50,7 +50,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop",
     technologies: ["Java", "Spring Boot", "AWS", "Docker"],
     category: "Cloud",
-    github: "https://github.com/dhanunjaya-varma",
+    github: "https://github.com/coderDhanunjayareddy",
     live: "",
     highlights: ["Enterprise Scale", "CI/CD", "AWS Infrastructure"],
   },
@@ -60,7 +60,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=400&fit=crop",
     technologies: ["Python", "Pandas", "NumPy", "Automation"],
     category: "Backend",
-    github: "https://github.com/dhanunjaya-varma",
+    github: "https://github.com/coderDhanunjayareddy",
     live: "",
     highlights: ["30% Time Saved", "Error Elimination", "Workflow Automation"],
   },
@@ -190,7 +190,7 @@ const Projects = () => {
         {/* View More */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com/dhanunjaya-varma"
+            href="https://github.com/coderDhanunjayareddy"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary/80 transition-colors"
