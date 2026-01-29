@@ -70,16 +70,16 @@ const Hero = () => {
             <div className="flex items-center gap-4">
               <span className="text-muted-foreground text-sm font-medium">Follow me:</span>
               <div className="flex gap-3">
-                <a
-                  href="https://github.com/dhanunjaya-varma"
+              <a
+                  href="https://github.com/coderDhanunjayareddy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all"
-                >
+              >
                   <Github size={18} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/dhanunjaya"
+                  href="https://www.linkedin.com/in/dhanunjaya-somireddy/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all"
