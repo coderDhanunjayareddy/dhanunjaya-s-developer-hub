@@ -1,5 +1,5 @@
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
-import avatarImage from "@/assets/avatar.png";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   return (
@@ -57,7 +57,7 @@ const Hero = () => {
                 <ArrowRight size={18} />
               </a>
               <a
-                href="/resume.pdf"
+                href="/Dhanunjaya_Resume.pdf"
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-foreground px-8 py-3.5 font-semibold text-foreground transition-all duration-300 hover:bg-foreground hover:text-background"
               >
@@ -103,7 +103,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-yellow rounded-[40px] transform rotate-6 scale-95" />
               <div className="relative bg-primary-light rounded-[40px] p-4 transform -rotate-3">
                 <img
-                  src={avatarImage}
+                  src={profilePhoto}
                   alt="Dhanunjaya - Software Developer"
                   className="w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 object-cover rounded-[32px] shadow-xl"
                 />

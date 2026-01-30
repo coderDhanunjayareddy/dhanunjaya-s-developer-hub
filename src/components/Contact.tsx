@@ -2,10 +2,10 @@ import { useState, FormEvent } from "react";
 import { Send, Mail, Phone, MapPin, Github, Linkedin, CheckCircle, AlertCircle } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
-// EmailJS Configuration - Replace with your credentials
-const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID"; // e.g., "service_xxxxxx"
-const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID"; // e.g., "template_xxxxxx"
-const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY"; // e.g., "xxxxxxxxxxxxxx"
+// EmailJS Configuration
+const EMAILJS_SERVICE_ID = "service_ub7rc1q";
+const EMAILJS_TEMPLATE_ID = "template_3nvbi33";
+const EMAILJS_PUBLIC_KEY = "YjFfS9Ztwp1xnMyfv";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
