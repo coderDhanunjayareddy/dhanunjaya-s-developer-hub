@@ -1,5 +1,5 @@
-import { CheckCircle, Download, Award, Briefcase } from "lucide-react";
-import avatarImage from "@/assets/avatar.png";
+import { Download, Award, Briefcase } from "lucide-react";
+import aboutPhoto from "@/assets/about-photo.png";
 
 const highlights = [
   {
@@ -31,9 +31,9 @@ const About = () => {
               {/* Decorative border */}
               <div className="absolute inset-0 border-4 border-accent rounded-3xl transform translate-x-4 translate-y-4" />
               <img
-                src={avatarImage}
-                alt="Dhanunjaya"
-                className="relative w-full max-w-md mx-auto rounded-3xl shadow-xl object-cover aspect-square"
+                src={aboutPhoto}
+                alt="Dhanunjaya speaking at an event"
+                className="relative w-full max-w-md mx-auto rounded-3xl shadow-xl object-cover aspect-[3/4]"
               />
             </div>
 
@@ -82,7 +82,7 @@ const About = () => {
 
             {/* CTA */}
             <a
-              href="/resume.pdf"
+              href="/Dhanunjaya_Resume.pdf"
               target="_blank"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-8 py-3.5 font-semibold text-accent-foreground shadow-accent transition-all duration-300 hover:bg-accent-hover hover:shadow-lg"
             >

@@ -154,21 +154,24 @@ const Skills = () => {
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { title: "Java Full Stack Development", org: "EduBridge (NSDC)", grade: "A (86%)" },
-              { title: "JPMorgan Chase SWE Virtual", org: "Forage", grade: "Completed" },
-              { title: "Top 5% - #T20DSAChallenge", org: "AlgoUniversity", grade: "Jan 2025" },
-              { title: "Best Intern FY 2024-25", org: "Spectropy Edutech", grade: "Award" },
+              { title: "Java Full Stack Development", org: "EduBridge (NSDC)", grade: "A (86%)", link: "http://www.edubridgeindia.com/certificate-detail?enrollment_number=EBEON1224987078" },
+              { title: "JPMorgan Chase SWE Virtual", org: "Forage", grade: "Completed", link: "https://www.theforage.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_6946a86fbf37f9017ae9e2d4_1766484784719_completion_certificate.pdf" },
+              { title: "Top 5% - #T20DSAChallenge", org: "AlgoUniversity", grade: "Jan 2025", link: "https://d1lrk9cp1c3gxw.cloudfront.net/static/certificates/audevday1/dhanunjaya-somireddy.png" },
+              { title: "Best Intern FY 2024-25", org: "Spectropy Edutech", grade: "Award", link: "https://www.linkedin.com/in/dhanunjaya-somireddy/overlay/1755163542265/single-media-viewer?type=IMAGE&profileId=ACoAAEriU3YBBQ13pZcu8pYYD_y08Q_HlLpc0Pg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BQMiI2jYETxaI3el%2FT8nnug%3D%3D" },
             ].map((cert, index) => (
-              <div
+              <a
                 key={index}
-                className="bg-background rounded-xl p-5 border border-border text-center hover:border-primary hover:shadow-md transition-all"
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-background rounded-xl p-5 border border-border text-center hover:border-primary hover:shadow-md transition-all cursor-pointer group"
               >
-                <h4 className="font-bold text-foreground text-sm mb-1">{cert.title}</h4>
+                <h4 className="font-bold text-foreground text-sm mb-1 group-hover:text-primary transition-colors">{cert.title}</h4>
                 <p className="text-muted-foreground text-xs mb-2">{cert.org}</p>
                 <span className="inline-block px-3 py-1 rounded-full bg-primary-light text-primary text-xs font-medium">
                   {cert.grade}
                 </span>
-              </div>
+              </a>
             ))}
           </div>
         </div>
