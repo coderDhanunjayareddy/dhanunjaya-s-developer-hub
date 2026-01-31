@@ -62,7 +62,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/10 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm flex items-center justify-center gap-1">
-            © {currentYear} Dhanunjaya. Made with <Heart size={14} className="text-accent fill-accent" /> in Hyderabad
+            © {currentYear} Dhanunjaya Somireddy. All rights reserved.
           </p>
         </div>
       </div>
